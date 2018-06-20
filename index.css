@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #E9E7E6;
+}
+
+.container {
+  background: #fff;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  box-shadow: #D9D6D3 0 0 5px;
+}
+
+.position {
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+.position img {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -90px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
